@@ -2,6 +2,10 @@
 
 [English](#english) | [Русский](#russian)
 
+<p align="center">
+      <img src="screenshots/screenshots.png" width="600" title="Huawei FlashTool">
+</p>
+
 ***
 
 <a name="english"></a>
