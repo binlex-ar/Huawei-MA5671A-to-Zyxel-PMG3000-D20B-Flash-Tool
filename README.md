@@ -1,5 +1,7 @@
 # 🚀 Huawei MA5671A, G-010S-P to Zyxel PMG3000-D20B Flash Tool
 
+[![Сказать спасибо](https://img.shields.io/badge/Сказать%20спасибо-Donate-orange?style=for-the-badge&logo=heartbeat)](https://pay.cloudtips.ru/p/71b5c696)
+
 [English](#english) | [Русский](#russian)
 
 > [!CAUTION]
