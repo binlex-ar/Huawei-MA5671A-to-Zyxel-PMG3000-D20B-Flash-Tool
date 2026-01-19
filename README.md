@@ -80,6 +80,8 @@ Graphical utility for flashing **Huawei MA5671A, G-010S-P** GPON SFP modules int
 
 ***
 
+[![Сказать спасибо](https://img.shields.io/badge/Сказать%20спасибо-Donate-orange?style=for-the-badge&logo=heartbeat)](https://pay.cloudtips.ru/p/71b5c696)
+
 ## ⚠️ Disclaimer / Отказ от ответственности
 
 This software is provided "as is". Use it at your own risk. The author is not responsible for any damage to your hardware.
