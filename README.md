@@ -2,6 +2,13 @@
 
 [English](#english) | [Русский](#russian)
 
+> [!CAUTION]
+> **RU: КРИТИЧЕСКОЕ ПРЕДУПРЕЖДЕНИЕ**
+> Перед прошивкой **MA5671A** или **G-010S-P** на прошивку Zyxel убедитесь, что стик загружен с **первого слота (image0)**. Прошивка из-под второго слота (image1) приведет к «окирпичиванию», которое невозможно исправить без использования UART.
+>
+> **EN: CRITICAL WARNING**
+> Before flashing **MA5671A** or **G-010S-P** to Zyxel firmware, ensure the stick is booted from the **first partition (image0)**. Flashing from the second partition (image1) will lead to a brick that can only be recovered via UART.
+
 <p align="center">
       <img src="screenshots/screenshots.png" width="600" title="Huawei FlashTool">
 </p>
@@ -14,14 +21,14 @@
 Graphical utility for flashing **Huawei MA5671A, G-010S-P** GPON SFP modules into **Zyxel PMG3000-D20B** and subsequent configuration.
 
 ### ✨ Features
-*   **Dual Boot Switch:** Easy switching between Huawei (Stock) and Zyxel (Mod) boot partitions.
-*   **Safe Flashing:** Firmware writing with automatic `uboot_env` partition backup.
-*   **Restore:** Restore the environment partition from a backup file.
-*   **Zyxel Configuration:** Quick change of parameters via SSH:
-    *   Serial Number (SN)
-    *   PLOAM Password
-    *   MAC Address
-    *   Equipment ID and Hardware Version
+* **Dual Boot Switch:** Easy switching between Huawei (Stock) and Zyxel (Mod) boot partitions.
+* **Safe Flashing:** Firmware writing with automatic `uboot_env` partition backup.
+* **Restore:** Restore the environment partition from a backup file.
+* **Zyxel Configuration:** Quick change of parameters via SSH:
+    * Serial Number (SN)
+    * PLOAM Password
+    * MAC Address
+    * Equipment ID and Hardware Version
 
 ### 🔐 Default Credentials
 
@@ -46,14 +53,14 @@ Graphical utility for flashing **Huawei MA5671A, G-010S-P** GPON SFP modules int
 Графическая утилита для прошивки GPON SFP модулей **Huawei MA5671A, G-010S-P** в **Zyxel PMG3000-D20B** и их последующей настройки.
 
 ### ✨ Возможности
-*   **Dual Boot Switch:** Переключение загрузки между разделами Huawei (сток) и Zyxel (мод).
-*   **Safe Flashing:** Запись прошивки с автоматическим созданием резервной копии раздела `uboot_env`.
-*   **Restore:** Восстановление раздела окружения из файла бекапа.
-*   **Zyxel Configuration:** Быстрая смена параметров через SSH:
-    *   Серийный номер (SN)
-    *   Пароль PLOAM
-    *   MAC-адрес
-    *   Equipment ID и Hardware Version
+* **Dual Boot Switch:** Переключение загрузки между разделами Huawei (сток) и Zyxel (мод).
+* **Safe Flashing:** Запись прошивки с автоматическим созданием резервной копии раздела `uboot_env`.
+* **Restore:** Восстановление раздела окружения из файла бекапа.
+* **Zyxel Configuration:** Быстрая смена параметров через SSH:
+    * Серийный номер (SN)
+    * Пароль PLOAM
+    * MAC-адрес
+    * Equipment ID и Hardware Version
 
 ### 🔐 Реквизиты доступа
 
