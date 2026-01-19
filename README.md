@@ -34,7 +34,7 @@ Graphical utility for flashing **Huawei MA5671A, G-010S-P** GPON SFP modules int
 
 | Mode | IP Address | Username | Password |
 | :--- | :--- | :--- | :--- |
-| **Huawei** | `192.168.1.10` | `root` | `` |
+| **Huawei** | `192.168.1.10` | `root` | `перед прошивкой задайте любой пароль` |
 | **Zyxel (ssh)** | `10.10.1.1` | `admin` | `admin` |
 | **Zyxel (Web)** | `10.10.1.1` | `admin` | `1234` |
 | **Zyxel (telnet)** | `10.10.1.1` | `twmanu` | `twmanu` |
@@ -72,6 +72,7 @@ Graphical utility for flashing **Huawei MA5671A, G-010S-P** GPON SFP modules int
 | **Zyxel (telnet)** | `10.10.1.1` | `twmanu` | `twmanu` |
 
 ### 📦 Установка и запуск
+Перед прошивкой **MA5671A** или **G-010S-P** задайте  любой пароль SSH
 1.  Убедитесь, что установлен **Python 3.10+**.
 2.  Установите зависимости: `pip install -r requirements.txt`
 3.  Запустите программу: `python Huawei_FlashTool.py`
